@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sword.yukti.nearby.DescriptionActivity">
+    <RelativeLayout
+        android:id="@+id/laye"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <FrameLayout
+            android:id="@+id/lay0"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/hospital"/>
+
+            <TextView
+                android:id="@+id/Rest_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="150dp"
+                android:padding="10sp"
+                android:background="#1e3d45"
+                android:text="Rest_name"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24dp"/>
+
+
+        </FrameLayout>
+
+
+       <!-- <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="1"
+            android:layout_below="@+id/lay0"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Address   : "
+                />
+
+            <TextView
+                android:id="@+id/hosp_add"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+
+                android:layout_below="@+id/lay0"
+                android:text="address"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay1"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:id="@+id/label2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Phone No : "
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/hosp_phno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="Number"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/lay2"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/label4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Ratings     : "
+                />
+
+            <RatingBar
+                android:id="@+id/ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/Base.Widget.AppCompat.RatingBar.Indicator"
+                android:numStars="5"
+                android:isIndicator="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="78dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:weightSum="1"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/lay4"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/label6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Website: "/>
+
+            <TextView
+                android:id="@+id/hosp_url"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:text="url"/>
+
+        </LinearLayout>!-->
+        <WebView
+            android:layout_below="@+id/lay0"
+            android:id="@+id/wv_place_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
+

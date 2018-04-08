@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1080044530436",
+    "firebase_url": "https://nearby-9170e.firebaseio.com",
+    "project_id": "nearby-9170e",
+    "storage_bucket": "nearby-9170e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080044530436:android:c7a7f8a57d5f34d5",
+        "android_client_info": {
+          "package_name": "com.sword.yukti.nearby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080044530436-uahkv9e4k9h1fgp3960houusgshu66pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sword.yukti.nearby",
+            "certificate_hash": "9542b180a68a7a9e3d8b4750f7991d5873859fa8"
+          }
+        },
+        {
+          "client_id": "1080044530436-v8fmdecr8ccp6q9b9ol1g2kirgid09c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6uZI01avYWdxJr7FUf2dQ2FX_Am6zDPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080044530436-v8fmdecr8ccp6q9b9ol1g2kirgid09c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

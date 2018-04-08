@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_color">#18668d</color>
+    <color name="badge_color">#f20000</color>
+    <color name="dashboard_color">#2b9ccd</color>
+    <color name="titlebar_color">#7c7007</color>
+    <color name="hint_color">#D3D3D3</color>
+    <color name="home_color">#ffffff</color>
+    <color name="basic_background_color">#087bb4</color>
+    <color name="devider">#ccc</color>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_layout"
+    android:layout_below="@+id/image_layout"
+    tools:context=".RegisterActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditText
+    android:id="@+id/register_email"
+    android:layout_width="fill_parent"
+    android:layout_height="36dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="20dp"
+    android:hint="Phone"
+    android:background="@color/colorPrimaryDark"
+    android:inputType="phone|textEmailAddress"
+    android:padding="8dip"
+    android:textColor="@android:color/background_light"
+    android:textColorHint="@android:color/background_light" />
+
+
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="36dp"
+    android:inputType="textPassword"
+    android:id="@+id/register_pass"
+    android:hint="Password"
+    android:background="@color/colorPrimaryDark"
+
+    android:padding="8dip"
+    android:layout_marginTop="28dp"
+    android:layout_marginRight="15dp"
+    android:textColor="@android:color/background_light"
+    android:textColorHint="@android:color/background_light"
+    android:layout_below="@+id/register_email"
+    android:layout_alignStart="@+id/register_email" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:inputType="textPassword"
+        android:id="@+id/confirm_pass"
+        android:hint="confirm password"
+        android:background="@color/colorPrimaryDark"
+
+
+        android:padding="8dip"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:layout_below="@+id/register_pass"
+        android:layout_alignStart="@+id/register_pass" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:inputType="text"
+        android:id="@+id/address"
+        android:hint="address"
+        android:padding="8dip"
+        android:background="@color/colorPrimaryDark"
+
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:layout_below="@+id/confirm_pass"
+        android:layout_alignStart="@+id/register_pass" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:inputType="number"
+        android:id="@+id/alternate_number"
+        android:background="@color/colorPrimaryDark"
+
+        android:hint="alternate number"
+        android:padding="8dip"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:layout_below="@+id/address"
+        android:layout_alignStart="@+id/address" />
+<Button
+    android:id="@+id/btnRegister"
+    android:layout_width="fill_parent"
+    android:layout_height="36dp"
+    android:text="Please Register"
+    android:background="@android:color/holo_green_dark"
+
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:textAllCaps="false"
+    android:textColor="@android:color/white"
+    android:layout_marginTop="28dp"
+    android:layout_below="@+id/alternate_number"
+    />
+
+</RelativeLayout>
